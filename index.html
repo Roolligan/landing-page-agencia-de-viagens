@@ -9,25 +9,243 @@
 <body>
     <!-- Hero Section -->
     <header class="hero">
+        <nav class="navbar">
+            <!-- Logo -->
+            <div class="logo">
+                <img src="img/logo.png" alt="Logo da Agência de Viagens">
+            </div>
+            <!-- Menu -->
+            <ul class="menu">
+                <li><a href="#sobre">Sobre Nós</a></li>
+                <li><a href="#destinos">Destinos</a></li>
+                <li><a href="#pacotes">Pacotes</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    
+        <!-- Hero Content -->
         <div class="hero-content">
             <h1>Explore o Mundo com a Gente!</h1>
             <p>Os melhores destinos e pacotes para realizar seu sonho.</p>
-            <a href="sobre" class="btn-hero">Saiba Mais</a>
-
+            <a href="#sobre" class="btn-hero">Saiba Mais</a>
         </div>
-
     </header>
+    
 
     <!-- Sobre Nós -->
-     <section id="destinos" class="destinos-populares">
-        <h2>Destinos Populares</h2>
-        <div class="destinos-grid">
-            <div class="destino">
-
+    <section id="sobre" class="sobre-nos">
+        <div class="container">
+            <div>
+                <h2>Sobre Nós</h2>
+                <p>Somos apaixonados por criar experiências de viagem inesquecíveis. Com anos de expertise, oferecemos pacotes personalizados e um atendimento diferenciado.</p>
+                <p>Nossa missão é conectar pessoas a lugares incríveis, garantindo conforto, segurança e a melhor experiência de viagem possível.</p>
             </div>
+            <div class="imagem">
+                <img src="/img/sobre-nos.jpeg" alt="Imagem representando viagens">
+            </div>
+        </div>    
+    
+    </section>
 
+    <!-- Destinos Populares -->
+    <section id="destinos" class="destinos-populares">
+        <div class="container">
+            <h2>Destinos Populares</h2>
+            <p>Descubra os destinos mais desejados pelos nossos viajantes.</p>
+            <div class="grid">
+                <div class="destino">
+                    <img src="/img/paris.jpeg" alt="Paris">
+                    <h3>Paris</h3>
+                    <p>A cidade luz espera por você com seus charmes e atrações icônicas.</p>
+                </div>
+                <div class="destino">
+                    <img src="/img/maldivas.jpeg" alt="Maldivas">
+                    <h3>Maldivas</h3>
+                    <p>Relaxe em um paraíso tropical com praias de tirar o fôlego.</p>
+                </div>
+                <div class="destino">
+                    <img src="/img/ny.jpeg" alt="Nova York">
+                    <h3>Nova York</h3>
+                    <p>Descubra a cidade que nunca dorme com suas atrações únicas.</p>
+                </div>
+                <div class="destino">
+                    <img src="/img/roma.jpeg" alt="Roma">
+                    <h3>Roma</h3>
+                    <p>Aproveite a rica história e arquitetura deslumbrante da Cidade Eterna.</p>
+                </div>
+            </div>
         </div>
+    </section>
+    
 
-     </section>
+    <!-- Pacotes Promocionais -->
+    <section id="pacotes" class="pacotes-promocionais">
+        <div class="container">
+            <h2>Pacotes Promocionais</h2>
+            <p>Conheça nossas ofertas especiais e planeje sua próxima aventura!</p>
+            <div class="carrossel">
+                <div class="slide">
+                    <img src="/img/europa.webp" alt="Europa">
+                    <h3>Pacote Europa 2025</h3>
+                    <p>Inclui França, Itália e Espanha - 10 dias.</p>
+                    <p class="preco">R$ 5.999</p>
+                </div>
+                <div class="slide">
+                    <img src="/img/caribe.webp" alt="Caribe">
+                    <h3>Pacote Caribe Premium</h3>
+                    <p>7 noites em resort 5 estrelas nas Maldivas.</p>
+                    <p class="preco">R$ 8.499</p>
+                </div>
+                <div class="slide">
+                    <img src="/img/america-sul.webp" alt="América do Sul">
+                    <h3>Pacote América do Sul</h3>
+                    <p>Chile, Argentina e Peru - 12 dias.</p>
+                    <p class="preco">R$ 4.799</p>
+                </div>
+                <div class="slide">
+                    <img src="/img/asia.webp" alt="Ásia">
+                    <h3>Pacote Ásia Maravilhosa</h3>
+                    <p>Tailândia, Japão e China - 15 dias.</p>
+                    <p class="preco">R$ 9.999</p>
+                </div>
+            </div>
+            <!-- Botões de Navegação -->
+            <div class="navegacao">
+                <button class="btn-prev">Anterior</button>
+                <button class="btn-next">Próximo</button>
+            </div>
+        </div>
+    </section>
+    
+    
+    
+
+    <!-- Depoimentos -->
+    <section id="depoimentos" class="depoimentos">
+        <div class="container">
+            <h2>O que nossos clientes dizem</h2>
+            <p>Veja como ajudamos a realizar sonhos ao redor do mundo!</p>
+            <div class="grid">
+                <div class="depoimento">
+                    <img src="/img/cliente1.jpg" alt="Foto do cliente 1">
+                    <h3>Maria Oliveira</h3>
+                    <p>"A viagem para a Europa foi simplesmente incrível! Tudo bem organizado e sem complicações. Recomendo muito!"</p>
+                </div>
+                <div class="depoimento">
+                    <img src="/img/cliente2.jpg" alt="Foto do cliente 2">
+                    <h3>João Pereira</h3>
+                    <p>"Minha experiência no Caribe foi inesquecível! A agência cuidou de cada detalhe para que tudo fosse perfeito."</p>
+                </div>
+                <div class="depoimento">
+                    <img src="/img/cliente3.jpg" alt="Foto do cliente 3">
+                    <h3>Ana Santos</h3>
+                    <p>"Viajar pela América do Sul foi um sonho realizado. Ótimos pacotes e atendimento impecável!"</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+     <!-- Mapa Interativo -->
+     <section id="localizacao" class="mapa">
+        <div class="container">
+            <h2>Encontre-nos</h2>
+            <p>Estamos prontos para ajudá-lo a planejar a viagem dos seus sonhos. Visite-nos ou entre em contato!</p>
+            <div id="map" style="width: 100%; height: 400px; border-radius: 10px;"></div>
+        </div>
+    </section>
+    
+
+      <!-- Blog -->
+      <section id="dicas" class="dicas-viagem">
+        <div class="container">
+            <h2>Dicas de Viagem</h2>
+            <p>Prepare-se para a aventura com nossas dicas práticas e essenciais!</p>
+            <div class="grid">
+                <div class="dica">
+                    <img src="/img/documentos.webp" alt="Documentos">
+                    <h3>Organize seus documentos</h3>
+                    <p>Tenha passaporte, visto e reservas sempre à mão para evitar transtornos.</p>
+                </div>
+                <div class="dica">
+                    <img src="/img/mala.webp" alt="Mala de Viagem">
+                    <h3>Faça a mala com inteligência</h3>
+                    <p>Priorize itens essenciais e roupas versáteis para diferentes climas.</p>
+                </div>
+                <div class="dica">
+                    <img src="/img/seguro.webp" alt="Seguro de Viagem">
+                    <h3>Contrate um seguro de viagem</h3>
+                    <p>Segurança em primeiro lugar! Proteja-se contra imprevistos.</p>
+                </div>
+                <div class="dica">
+                    <img src="/img/itinerario.webp" alt="Planejamento">
+                    <h3>Planeje seu itinerário</h3>
+                    <p>Pesquise os destinos e monte um roteiro para aproveitar ao máximo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+       <!-- Formulário -->
+       <section id="contato" class="contato">
+        <div class="container">
+            <h2>Entre em Contato</h2>
+            <p>Tem dúvidas? Estamos aqui para ajudar! Envie uma mensagem.</p>
+            <form action="https://formspree.io/f/{seu-endereco}" method="POST">
+                <div class="form-group">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" placeholder="Seu e-mail" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" name="mensagem" placeholder="Sua mensagem" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn-enviar">Enviar Mensagem</button>
+            </form>
+        </div>
+    </section>
+    
+
+       <!-- Rodapé -->
+       <footer class="rodape">
+        <div class="container">
+            <div class="grid">
+                <div class="coluna">
+                    <h3>Sobre Nós</h3>
+                    <p>Somos uma agência dedicada a transformar sonhos de viagem em realidade. Explore o mundo conosco!</p>
+                </div>
+                <div class="coluna">
+                    <h3>Links Úteis</h3>
+                    <ul>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#pacotes">Pacotes</a></li>
+                        <li><a href="#dicas">Dicas</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="coluna">
+                    <h3>Contato</h3>
+                    <p>Email: contato@agenciaviagensfictisio.com</p>
+                    <p>Telefone: (55) 5555-5555</p>
+                    <div class="redes-sociais">
+                        <a href="#"><img src="/img/facebook.png" alt="Facebook"></a>
+                        <a href="#"><img src="/img/instagram.png" alt="Instagram"></a>
+                        <a href="#"><img src="/img/x.png" alt="Twitter"></a>
+                    </div>
+                </div>
+            </div>
+            <p class="creditos">&copy; 2025 Agência de Viagens. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+    
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAccMQVZpBF6-VSXsyE0j9XoTRNnZsQqzg&callback=initMap" async defer></script>
+    <script src="/js/script.js"></script>
+
+
 </body>
 </html>
