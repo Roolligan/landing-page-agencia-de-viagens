@@ -1,6 +1,6 @@
 /* Hero Section */
 .hero {
-    background: url('/img/fundo-hero.jpg') no-repeat center center/cover;/* Fundo do Hero */
+    background: url('./img/fundo-hero.jpg') no-repeat center center/cover;/* Fundo do Hero */
     height: auto; /* Ocupa toda a altura da tela */
     color: white;
     position: relative;
